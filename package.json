@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "firebase": "^10.1.0",
     "sweetalert2": "^11.7.20",
     "vue": "^3.3.4"
