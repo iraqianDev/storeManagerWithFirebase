@@ -4,7 +4,7 @@ import { getStorage } from "firebase/storage"
 import { getDatabase } from "firebase/database"
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
+  apiKey: process.env.VITE_APIKEY,
   authDomain: "aswartask.firebaseapp.com",
   projectId: "aswartask",
   storageBucket: "aswartask.appspot.com",

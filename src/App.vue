@@ -3,6 +3,7 @@ import Form from "./components/Form.vue"
 import Data from "./components/Data.vue"
 import Login from "./components/Login.vue"
 import { ref } from "vue"
+
 import {
   getAuth,
   signOut
@@ -17,6 +18,7 @@ const setSignOut = () =>{
 </script>
 
 <template>
+
   <div v-if="!isLoggedIn">
     <Login @Login="(userLoggedIn) => (isLoggedIn = userLoggedIn.value)" />
   </div>
